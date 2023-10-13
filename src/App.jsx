@@ -3,6 +3,7 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import Upload from './components/Upload'
 import Profile from './components/Profile'
+import Dashboard from './components/Dashboard'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Home/>
       <Upload />
       <Profile />
+      <Dashboard />
     </div>
   )
 }

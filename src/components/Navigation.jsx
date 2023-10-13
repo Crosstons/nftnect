@@ -5,13 +5,13 @@ function Navigation() {
     <div>
       <nav className="bg-white fixed w-full z-20 top-0 left-0 border-b border-gray-200">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center">
+            <span class="self-center text-4xl font-bold whitespace-nowrap"><span className='text-pink-500'>NFT</span>nect</span>
+        </a>
           <div className="flex md:order-2">
-            <button 
-              type="button" 
-              className="text-white bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:outline-none focus:ring-pink-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0"
-            >
-              Connect Wallet
-            </button>
+          <button class="w-40 h-12 bg-white cursor-pointer rounded-3xl border-2 border-pink-500 shadow-[inset_0px_-2px_0px_1px_ec4899] group hover:bg-[#ec4899] transition duration-300 ease-in-out">
+          <span class="font-medium text-[#ec4899] group-hover:text-white">Connect Wallet</span>
+          </button>
             <button 
               data-collapse-toggle="navbar-sticky" 
               type="button" 

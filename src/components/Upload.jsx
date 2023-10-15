@@ -24,7 +24,7 @@ function Upload() {
   };
 
   return (
-    <div className="bg-white min-h-screen p-4 flex flex-col items-center justify-center">
+    <div className="bg-white min-h-screen p-4 flex flex-col items-center justify-center mt-16">
       <h1 className="text-pink-600 text-4xl mb-4">Upload Your Image</h1>
       <div className="border-2 border-pink-600 p-4 rounded-lg mb-4 flex flex-col items-center w-full">
         `

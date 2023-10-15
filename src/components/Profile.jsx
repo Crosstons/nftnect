@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 function Profile() {
   const [activeTab, setActiveTab] = useState('Your Posts');
 
-  const yourPosts = new Array(9).fill(null).map((_, i) => `https://via.placeholder.com/300x600?text=Your+Post+${i + 1}`);
-  const likedPosts = new Array(9).fill(null).map((_, i) => `https://via.placeholder.com/300x600?text=Liked+Post+${i + 1}`);
+  const yourPosts = new Array(9).fill(null).map((_, i) => `https://images.unsplash.com/photo-1513269762479-12fa9962d31b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80${i + 1}`);
+  const likedPosts = new Array(9).fill(null).map((_, i) => `https://images.unsplash.com/photo-1575540325855-4b5d285a3845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80${i + 1}`);
 
   const handleTabChange = (tabName) => {
     setActiveTab(tabName);
@@ -21,11 +21,11 @@ function Profile() {
   );
 
   return (
-    <div className="bg-white min-h-screen p-4 flex flex-col items-center">
+    <div className="bg-white min-h-screen p-4 flex flex-col items-center mt-20">
       <div className="w-32 h-32 mb-4 rounded-full overflow-hidden border-4 border-pink-600">
-        <img src="https://via.placeholder.com/128" alt="Profile" className="w-full h-full object-cover" />
+        <img src="https://static.vecteezy.com/system/resources/previews/011/490/381/original/happy-smiling-young-man-avatar-3d-portrait-of-a-man-cartoon-character-people-illustration-isolated-on-white-background-vector.jpg" alt="Profile" className="w-full h-full object-cover" />
       </div>
-      <h1 className="text-pink-600 text-3xl mb-4">Profile Name</h1>
+      <h1 className="text-pink-600 text-3xl mb-4">Crostons</h1>
       <div className="mb-4">
         <button
           onClick={() => handleTabChange('Your Posts')}
